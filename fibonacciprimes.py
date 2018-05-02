@@ -11,6 +11,9 @@ def largest_prime_factor(n):
 
 print("Prime factors of solution to Fibonacci recurrence with various initial conditions, we assume F(0)=a and F(1)=b and F(n+1)=F(n-1)+F(n) \n")
 print("-------------------------------------------------------------------------------------------------------------------------------------")
+
+# below function from
+# https://stackoverflow.com/questions/18172257/efficient-calculation-of-fibonacci-series
 def fib_to(n,a,b):
 	fibs = [a, b]
 	for i in range(2, n+1):
